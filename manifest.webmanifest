@@ -1,0 +1,21 @@
+{
+  "id": "./fiducia.html",
+  "name": "Fiducia — Trust Oversight",
+  "lang": "en-US",
+  "dir": "ltr",
+  "short_name": "Fiducia",
+  "description": "A calm oversight tool for trustees and fiduciaries managing trust property. A free tool by TrueReckon, built on ProbateLink.",
+  "start_url": "./fiducia.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3F4EE",
+  "theme_color": "#F3F4EE",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
