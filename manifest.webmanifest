@@ -4,7 +4,7 @@
   "lang": "en-US",
   "dir": "ltr",
   "short_name": "Fiducia",
-  "description": "A calm oversight tool for trustees and fiduciaries managing trust property. A free tool by TrueReckon, built on ProbateLink.",
+  "description": "A calm oversight tool for trustees and fiduciaries managing trust property. A free tool by TrueReckon.",
   "start_url": "./fiducia.html",
   "scope": "./",
   "display": "standalone",

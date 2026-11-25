@@ -1,6 +1,6 @@
 /* Fiducia service worker — offline app shell + runtime font cache.
    Bump CACHE whenever fiducia.html or the icons change to force clients to update. */
-const CACHE = 'fiducia-1fe45dc78e';
+const CACHE = 'fiducia-7a3bb94981';
 const SHELL = './fiducia.html';
 const PRECACHE = [
   SHELL,

@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Libre+Caslon+Display&family=Caveat:wght@500&display=swap">
-<meta name="description" content="A calm oversight tool for trustees and fiduciaries managing trust property. A free tool by TrueReckon, built on ProbateLink.">
+<meta name="description" content="A calm oversight tool for trustees and fiduciaries managing trust property. A free tool by TrueReckon.">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#F3F4EE" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#161812" media="(prefers-color-scheme: dark)">
@@ -367,13 +367,13 @@ dialog::backdrop{background:rgba(10,16,22,.45)}
   <nav class="tabs" role="tablist" id="tabs"></nav>
   <main id="view"></main>
 
-  <!-- Brand + ProbateLink CTA. TODO: set the real CTA destination in the href below (a page URL or a mailto:). -->
+  <!-- Brand + TrueReckon CTA. -->
   <footer class="brandbar">
     <div class="bb-mark">
       <span class="bb-f">F<span class="bb-dot">.</span></span>
-      <div class="bb-text"><strong>Fiducia</strong> — a free trustee tool by <strong>TrueReckon</strong>, built on <strong>ProbateLink</strong>.</div>
+      <div class="bb-text"><strong>Fiducia</strong> — a free trustee tool by <strong>TrueReckon</strong>.</div>
     </div>
-    <a class="bb-cta" id="pl-cta" href="https://probatelink.com" target="_blank" rel="noopener">When it&rsquo;s time to file, ProbateLink prepares the court accounting &rarr;</a>
+    <a class="bb-cta" id="tr-cta" href="https://truereckon.com/" target="_blank" rel="noopener">When it&rsquo;s time to file, TrueReckon prepares the court accounting &rarr;</a>
   </footer>
 
   <p class="foot">This demo uses fictional data. The trust, trustee, beneficiaries, tenants, vendors, addresses, parcel numbers and case number are all invented. Statute and rule references are there to support design discussion and are not legal advice; counsel should verify them. The decision buttons record choices only in this browser.</p>
@@ -1257,7 +1257,7 @@ function renderReport(){
     <section class="rep-sec"><h2>Your manager's decisions</h2>
       <p class="lead">${mgrDone} of ${mgr.length} decided. A trustee who delegates management must monitor the agent they hired (Prob. Code §16052; verify). This is that record.</p>${mgrList}</section>
 
-    <p class="rep-disc">Fiducia oversight report · demo with fictional data. This is a monitoring report for the trustee and their advisors; it is <strong>not a court filing and makes no claim of filing readiness</strong>. Statute references support discussion and are not legal advice; counsel should verify them. Any court accounting of record is prepared through the separate PROBATELINK pipeline. Prepared as of ${fmtDate(D.as_of)}.</p>
+    <p class="rep-disc">Fiducia oversight report · demo with fictional data. This is a monitoring report for the trustee and their advisors; it is <strong>not a court filing and makes no claim of filing readiness</strong>. Statute references support discussion and are not legal advice; counsel should verify them. Any court accounting of record is prepared separately by TrueReckon. Prepared as of ${fmtDate(D.as_of)}.</p>
   </article>`;
 }
 
